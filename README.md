@@ -11,13 +11,13 @@ $ npm install authnet
 
 ## API
 
-## AuthNet
+### AuthNet
 
 ```js
 var AuthNet = require('authnet');
 ```
 
-## cim#
+### cim#
 
 ```js
   var cim = AuthNet.cim({ id: config.authId, key: config.authKey });
