@@ -5,6 +5,8 @@ Node.js Authorize.net API
 
 ## API
 
+## cim#
+
 ### cim#createCustomerProfile
 
 ### cim#createPaymentProfile
