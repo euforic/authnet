@@ -10,7 +10,6 @@
     "authorize.net"
   ],
   "dependencies": {
-    "xml2js": "~0.2.4",
     "superagent": "~0.12.4",
     "xml2json": "~0.3.2"
   },
@@ -22,8 +21,11 @@
     "lib": "./lib"
   },
   "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/euforic/authnet.git"
+  },
   "engines": {
     "node": ">= 0.8.0"
-  },
-  "readme": "README.md"
+  }
 }
