@@ -1,7 +1,7 @@
 {
   "name": "authnet",
   "description": "Authorize.net Node API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Christian Sullivan",
     "email": "cs@euforic.co"
