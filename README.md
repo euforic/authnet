@@ -8,6 +8,11 @@ Node.js Authorize.net API
 ```
 $ npm install authnet
 ```
+## Official API Docs
+- [AIM XML guide](http://www.authorize.net/support/AIM_guide_XML.pdf)
+- [ARB XML guide](http://www.authorize.net/support/ARB_guide.pdf)
+- [CIM XML guide](http://www.authorize.net/support/CIM_XML_guide.pdf)
+- [Transaction Details Guide](http://www.authorize.net/support/ReportingGuide_XML.pdf)
 
 ## API
 
@@ -25,10 +30,14 @@ var cim = AuthNet.cim({ id: config.authId, key: config.authKey });
 
 ### cim#createCustomerProfile
 
+Create a new customer profile along with any customer payment profiles and customer shipping addresses for the customer profile.
+
 ```js
 var cim = AuthNet.cim;
 ```
 ### cim#createPaymentProfile
+
+Create a new customer payment profile for an existing customer profile.
 
 ```js
 var profile = {
@@ -43,6 +52,8 @@ cim.createCustomerProfile(profile, function (err, res){
 });
 ```
 ### cim#createShippingAddress
+
+Create a new customer shipping address for an existing customer profile.
 
 ### cim#createAuthOnlyTransaction
 
@@ -59,6 +70,8 @@ cim.createCustomerProfile(profile, function (err, res){
 ### cim#deleteCustomerProfile
 
 ### cim#deletePaymentProfile
+
+Create a new payment transaction from an existing customer profile.
 
 ### cim#deleteShippingAddress
 
@@ -97,4 +110,4 @@ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.E.

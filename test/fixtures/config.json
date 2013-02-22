@@ -1,4 +1,12 @@
 {
   "authId": "3ea3GYy9TwUS",
-  "authKey": "7tyy8JL5s4g3E9W7"
+  "authKey": "7tyy8JL5s4g3E9W7",
+  "cc":{
+    "visa": 370000000000002,
+    "discover": 6011000000000012,
+    "amex": 4007000000027,
+    "visaalt": 4012888818888,
+    "dinersclub": 38000000000006,
+    "jcb": 3088000000000017
+  }
 }

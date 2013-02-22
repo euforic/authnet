@@ -11,6 +11,8 @@ var profile = {
 
 };
 
+// Create User
+
 client.createCustomerProfile(profile, function (err, res){
   console.log(res);
 });
